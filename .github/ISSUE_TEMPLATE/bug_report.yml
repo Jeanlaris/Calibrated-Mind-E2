@@ -1,0 +1,41 @@
+name: 🐛 Bug Report
+description: File a precise bug report to optimize and calibrate the system.
+title: "[BUG]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+  - type: input
+    id: summary
+    attributes:
+      label: Bug Summary
+      description: A concise description of what the bug is.
+      placeholder: e.g., Pipeline fails when processing empty payload
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: Clear, step-by-step instructions to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment & Context
+      description: Provide details about your setup (OS, browser, version, architecture).
+      placeholder: e.g., Ubuntu 24.04, Python 3.12, VS Code
+    validations:
+      required: true
