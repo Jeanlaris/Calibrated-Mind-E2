@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Alantec Community & Discussions
+    url: https://github.com/jeanlaris/MENTE_CALIBRADA_G1/discussions
+    about: 🚀 Ask questions, share ideas, and connect with other architects of the future.
+  - name: 🛡️ Security Policy & Vulnerabilities
+    url: https://github.com/jeanlaris/MENTE_CALIBRADA_G1/security/policy
+    about: 🔒 Report security issues or vulnerabilities safely and privately.
