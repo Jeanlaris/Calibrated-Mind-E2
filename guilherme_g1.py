@@ -1,1 +1,0 @@
-print("G1 ATIVADO")
