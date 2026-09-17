@@ -1,0 +1,11 @@
+name: Blank
+description: Create a blank issue with no preset template.
+body:
+  - type: textarea
+    id: content
+    attributes:
+      label: Issue Content
+      description: Write your issue details here in English.
+      placeholder: Enter file contents here
+    validations:
+      required: true
